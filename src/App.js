@@ -1,25 +1,23 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import "./App.css";
+
+import UseState from "./Components/UseState";
+import UseReducer from "./Components/UseReducer";
+import UseContext from "./Components/UseContext";
+import UseEffect from "./Components/UseEffect";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+        <div className="App-header">Trying out Hooks on Twitch</div>
+        <UseState />
+        <div className="seperator" />
+        <UseEffect />
+        <div className="seperator" />
+        <UseContext />
+        <div className="seperator" />
+        <UseReducer />
       </div>
     );
   }
