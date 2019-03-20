@@ -4,7 +4,7 @@ Examples for the following hooks:
 
 ### `useState`
 
-###m `useEffect`
+### `useEffect`
 
 ### `useReducer`
 
